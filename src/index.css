@@ -1,5 +1,81 @@
+/* Custom css properties */
+:root {
+
+  /* font family */
+  --ff: "Poppins", sans-serif;
+
+  /* font sizes */
+  --fs-sm: 1rem;
+  --fs-md: 2rem;
+  --fs-lg: 3rem;
+
+
+  /* font weights */
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+  --fw-800: 800;
+  --fw-900: 900;
+
+  /* margins and paddings */
+  --mg-sm: 1rem;
+  --mg-md: 2rem;
+  --mg-lg: 3rem;
+
+  --pd-sm: 1rem;
+  --pd-md: 2rem;
+  --pd-lg: 3rem;
+
+  /* colors */
+  --text-clr:hsl(0, 0%, 47%);
+
+}
+
+
+/* General Style */
+html {
+  font-family: var(--ff);
+}
+
+.container{
+  margin-inline: 4rem;
+}
+
+/* reset */
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+}
+
+div,
+h1,
+h2,
+h3,
+h4,
+ul,
+header,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button{
+  border: none;
+  background: transparent;
 }

@@ -1,0 +1,29 @@
+.header__one__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:var(--text-clr)
+}
+
+.socialmedia__list{
+    display: flex;
+}
+
+.select__container select:first-child{
+    margin-right: 1rem;
+}
+
+.header__one__text{
+    font-size: var(--fs-sm);
+}
+
+.header__one__container select{
+    height: 2rem;
+    border: none;
+    width: 5rem;
+    color: var(--text-clr);
+}
+
+.header__one__container select:hover{
+    color:black;
+}

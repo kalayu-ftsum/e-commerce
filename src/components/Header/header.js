@@ -1,10 +1,13 @@
 import React from "react";
+import Logos from "./headerOne/HeaderOne";
 
 function Header() {
     return(
     <>
         <header>
-            <h1>header</h1>
+            <div className="container">
+            <Logos />
+            </div>
         </header>
     </>
     );
